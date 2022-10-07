@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowbite Chat</title>
+    <!-- <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    
+    <script defer src="js/client.js"></script>  -->
+    <link rel="stylesheet" href="css/frontend.css">
+</head>
+<body>
+    <div class="window">
+        <div class="container">
+            <div class="messagecontainer" id="container">
+                <div class="message left "><span> hello man </span></div>
+                <div class="message right"><span>yes brother. whats up ?</span></div>
+
+            </div>
+            <div  id="send">
+                <form action="#" id="send-container" class='inline-block mx-auto item-center h w-full flex justify-center item-center justify-around'>
+                    <input name="messageInput" type="text" id="messageInp" class='w-2/3 h-10 rounded-lg hover:border hover:border-red-300 p-2' />
+                    <button id="btn" type="submit" class='border w-[80px] rounded-lg bg-blue-300 hover:bg-blue-600 hover:scale-95 duration-50 '><span>Send</span></button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script  src="http://localhost:8000/socket.io/socket.io.js"></script>
+    
+    <script  src="js/client.js"></script>
+</body>
+</html>

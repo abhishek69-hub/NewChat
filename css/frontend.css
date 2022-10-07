@@ -1,0 +1,81 @@
+.window{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin: auto;
+    border: 2px solid black;
+    height: 66vh;
+    margin-top: 40px;
+    width: 80vw;
+    border-radius: 8px;
+    background-color: rgb(220, 232, 245);
+}
+.messagecontainer{
+    overflow-y: auto;
+    width: 96%;
+    height: 75%;
+    padding: 16px;
+}
+.message{
+    background-color: ghostwhite;
+    margin-top: 14px;
+    
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 500 px;
+
+}
+
+.left{
+    float: left;
+    clear: both;
+    border: 2px solid rgb(11, 82, 129);
+
+}
+
+.right{
+    float: right;
+    clear: both;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+.formcontainer{
+    margin: 8px;
+    /* padding: 0 5px; */
+}
+
+#send-container{
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#messageInp{
+    width: 66%;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    padding-bottom: 8px;
+    
+}
+#messageInp:hover{
+    border: 2px solid red;
+    
+}
+#btn{
+    width: 80px;
+    border: 1px solid rgb(59, 29, 233);
+    border-radius: 7px;
+    background-color: rgb(148, 148, 247);
+    height:30px
+}

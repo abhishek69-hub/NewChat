@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.message{
+    background-color: ghostwhite;
+    margin-top: 14px;
+    
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 500 px;
+
+}
+
+.left{
+    float: left;
+    clear: both;
+    border: 2px solid rgb(11, 82, 129);
+
+}
+
+.right{
+    float: right;
+    clear: both;
+    border: 2px solid rgb(0, 0, 0);
+
+}
